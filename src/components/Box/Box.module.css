@@ -1,0 +1,13 @@
+.item{
+    display : flex;
+    background : rgb(235, 34, 67);
+    justify-content: center;
+    align-items: center;
+    color : white;
+    border-radius: 5px;
+}
+
+.item:hover{
+    cursor : pointer;
+    background : black;
+}
