@@ -15,9 +15,6 @@ class App extends Component{
       winner : "None"
     }
 
-
-
-
     render(){
       return(
         <div className = {classes.container1}>
