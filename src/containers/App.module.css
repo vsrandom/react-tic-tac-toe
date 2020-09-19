@@ -11,7 +11,7 @@
 
 .winner{
     text-align : center;
-    border : 5px solid black;
+    border : 3px solid black;
     display : flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +21,7 @@
 
 .turn{
     text-align : center;
-    border : 5px solid black;
+    border : 3px solid black;
     display : flex;
     justify-content: center;
     align-items: center;
@@ -37,4 +37,14 @@
     grid-template-columns: repeat(3, 9rem);
     grid-auto-rows : 9rem;
     grid-gap : 2px;
+}
+
+.button{
+    margin : 10px auto;
+    padding : 4px;
+    border-radius : 8px;
+    border : 1px solid black;
+    background :  #fff5d7;
+    color : black;
+    cursor : pointer;
 }
