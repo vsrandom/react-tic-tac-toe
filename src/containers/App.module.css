@@ -2,26 +2,39 @@
     width : 100vw;
     height: 100vh;
     display: grid;
-    grid-template-rows: 4rem 4rem 27rem;
+    grid-template-rows: 4rem 4rem 4rem 27rem;
     justify-content: center;
     align-content: center;
     grid-gap : 8px;
     /* background : black; */
 }
 
+.winnerContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
 .winner{
     text-align : center;
-    border : 3px solid black;
+    border : 1px solid black;
     display : flex;
+    color : #393939;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    background : rgb(19, 216, 19);
+    background : whitesmoke;
+    width : 45%;
+}
+
+.winnerHighlight{
+    animation : trans 1500ms linear;
+    background : #040404;
+    color : rgb(235, 34, 67);
 }
 
 .turn{
     text-align : center;
-    border : 3px solid black;
+    border : 1px solid black;
     display : flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +45,7 @@
 .container2{
     background : white;
     width : 27rem;
-    height : 27rem;
+    height : 27rem;;;
     display : grid;
     grid-template-columns: repeat(3, 9rem);
     grid-auto-rows : 9rem;
@@ -40,11 +53,63 @@
 }
 
 .button{
-    margin : 10px auto;
-    padding : 4px;
+    /* padding : 4px; */
     border-radius : 8px;
     border : 1px solid black;
     background :  #fff5d7;
     color : black;
     cursor : pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 33%;
+}
+
+.heading{
+    background : #1d1e22;
+    display  : flex;
+    justify-content: center;
+    align-items : center;
+    border-radius : 8px;
+} 
+
+.heading h1{   
+    color : #d4d4dc;
+}
+
+.highlightButton{
+    background : #FF5A09;
+    color : #393939;
+    border : 1px solid black;
+    animation : big 1000ms;
+    font-size: 1.6rem;
+    /* transform: scale(1.5); */
+}
+
+@keyframes trans{
+    0%{
+        transform: translateX(-10px);
+    }
+    25%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(0px)
+    } 
+}
+
+
+@keyframes big{
+    0%{
+        transform: rotate(0deg)
+    }
+    50%{
+        transform: rotate(180deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
 }
