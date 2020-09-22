@@ -13,14 +13,14 @@
 }
 
 .highlight{
-    background-color : #beef00;
-    color : black;
+    background-color : #1d1e22;
+    color : #FF5A09;
 }
 
 .highlight:hover
-{
-    background-color : #beef00;
-    color : black;
+{ 
+    background-color : #1d1e22;
+    color : #FF5A09;
 }
 
 

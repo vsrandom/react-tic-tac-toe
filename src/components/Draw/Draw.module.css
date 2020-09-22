@@ -1,0 +1,18 @@
+.draw{
+    display: none;
+    width : 432px;
+    height: 288px;
+    font-size : 4rem;
+    background : #1d1e22;
+    color :  #d4d4dc;
+    border-radius : 8px;
+    justify-content: center;
+    align-items: center;
+    transform : translateX(-200vh);
+    transition : transform 1000ms ease-in;
+}
+
+.showDraw{
+    display: flex;
+    transform : translateX(0);
+}

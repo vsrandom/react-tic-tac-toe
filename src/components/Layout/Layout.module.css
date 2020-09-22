@@ -1,0 +1,35 @@
+
+.layout {
+    box-sizing: border-box;
+    position: fixed;
+    width : 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background : #1d1e22;
+    padding-left : 50px;
+    padding-right : 50px;
+}
+
+.layout a{
+    text-decoration  : none;
+    color : #d4d4dc;
+  }
+  
+  .layout a:hover{
+    color : rgb(226, 43, 74);
+  }
+  
+  .layout img{
+    height : 2rem;
+    margin : 10px;
+  }
+
+  .nlink{
+      font-size: 1.22rem;
+  }
+
+/* .layout a{
+    text-decoration: none;
+} */
